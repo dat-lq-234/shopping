@@ -3,7 +3,7 @@ version: '1.0'
 services:
   db:
     image: mysql:latest
-    container_name: demo
+    container_name: shopping_container
     environment:
       MYSQL_ROOT_PASSWORD: 123456
       MYSQL_USER: datlq
@@ -12,7 +12,7 @@ services:
     ports:
       - "3309:3306"
     volumes:
-      - demo:/var/lib/mysql
+      - shopping_container:/var/lib/mysql
 
 volumes:
-  demo:
+  shopping_container:
