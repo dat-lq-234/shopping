@@ -1,0 +1,10 @@
+com/example/demo/Demo2Application.class
+com/example/demo/controllers/FileUpload.class
+com/example/demo/models/Product.class
+com/example/demo/services/StorageService.class
+com/example/demo/database/Database$1.class
+com/example/demo/controllers/ProductController.class
+com/example/demo/repositories/ProductRepository.class
+com/example/demo/models/ResponseObject.class
+com/example/demo/services/ImageStorageService.class
+com/example/demo/database/Database.class
